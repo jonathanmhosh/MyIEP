@@ -15,6 +15,10 @@
  * 1. Filter input
  * 2. Escape output
  * 3. UI overhaul
+ * 4. Check for squl injections potental
+ * 5. Validate with HTML5
+ * 6. Replace legacy with navbar
+ * 7. Add Forms
  * 
  */
  
