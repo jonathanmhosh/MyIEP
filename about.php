@@ -32,10 +32,10 @@ $MINIMUM_AUTHORIZATION_LEVEL = 100;    //anybody
 
 
 define('IPP_PATH','./');
-require_once(IPP_PATH . 'etc/init.php');
-require_once(IPP_PATH . 'include/supporting_functions.php');
+require_once IPP_PATH . 'etc/init.php';
+require_once(IPP_PATH . 'include/supporting_functions.php';
 
-header('Pragma: no-cache'); //don't cache this page!
+header'Pragma: no-cache'; //don't cache this page!
 
 
 ?> 
