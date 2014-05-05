@@ -27,11 +27,11 @@ require_once(IPP_PATH . 'install/index.php');
 exit();
 }
 /* eGPS required files. */
-require_once(IPP_PATH . 'etc/init.php');
-include_once(IPP_PATH . 'include/db.php');
-include_once(IPP_PATH . 'include/auth.php');
-include_once(IPP_PATH . 'include/supporting_functions.php');
-require_once(IPP_PATH . 'include/config.inc.php');
+require_once IPP_PATH . 'etc/init.php';
+include_once IPP_PATH . 'include/db.php';
+include_once IPP_PATH . 'include/auth.php';
+include_once IPP_PATH . 'include/supporting_functions.php';
+require_once IPP_PATH . 'include/config.inc.php';
 header('Pragma: no-cache'); //don't cache this page!
 logout();
 if(isset($MESSAGE)) $MESSAGE = $MESSAGE; else $MESSAGE="";
